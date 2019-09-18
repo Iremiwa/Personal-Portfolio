@@ -89,7 +89,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color: brown;
-    padding-left: 15%;
+    padding-left: 15px;
 }
 
 .icons {
@@ -105,6 +105,8 @@ body {
     float: left;
     width: 33.33%;
     padding: 5px;
+    padding-top: 50px;
+    padding-left: 60px;
 
   }
   
@@ -136,7 +138,24 @@ body {
       }
 
 
-      .homepage {
-          width: 50px;
-          height: 50px;
+      
+      .container {
+        background-image: url("about.jpg");
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+        color: brown;
+        font-size: 16px;
+      }
+
+      .project {
+          width: 150px;
+          height: 150px;
+      }
+
+      .project-content {
+          color: brown;
+          font-size: 20px;
       }
