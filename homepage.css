@@ -4,10 +4,12 @@ body {
 }
 
 .menu{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     margin-top: 0px;
     margin-left: 750px;
+    
+
 }
 .menu li {
     list-style: none;
@@ -25,6 +27,7 @@ body {
     padding: 14px, 20px;
     display: block;
     padding-top: 15px;
+    margin-right: 20px;
     
 }
 .menu li a:before{
